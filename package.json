@@ -1,0 +1,26 @@
+{
+  "name": "@evanhongo/react-custom-hook",
+  "homepage": "https://github.com/evanhongo/react-custom-hook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanhongo/react-custom-hook.git"
+  },
+  "keywords": [
+    "custom-hooks",
+    "react",
+    "react-hooks",
+    "react-hook",
+    "custom-hook"
+  ],
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "description": ""
+}
