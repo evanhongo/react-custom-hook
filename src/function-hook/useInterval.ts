@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 
-export default function useInterval(callback, interval) {
-  const timer: any = useRef();
+export default function useInterval(callback: TimerHandler, interval: number) {
+  const timer: any = useRef<number>();
 
   function start() {
     if (!timer.current)

@@ -1,8 +1,8 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, DependencyList } from "react";
 
-const useWatch = (dep, callback) => {
+const useWatch = (dep: DependencyList, callback: Function) => {
   const prevArray = useRef([]);
-  const isInit = useRef(false);
+  const isInit = useRef<boolean>(false);
 
   useEffect(() => {
     if (!isInit.current) isInit.current = true;
