@@ -1,6 +1,6 @@
 import { useEffect, useRef, DependencyList } from "react";
 
-const useWatch = (dep: DependencyList, callback: Function) => {
+export default function useWatch (dep: DependencyList, callback: Function) {
   const prevArray = useRef([]);
   const isInit = useRef<boolean>(false);
 
@@ -14,5 +14,3 @@ const useWatch = (dep: DependencyList, callback: Function) => {
     }
   }, dep);
 };
-
-export default useWatch;
