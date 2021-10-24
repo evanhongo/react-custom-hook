@@ -7,7 +7,7 @@
   ],
   "compilerOptions": {
     "outDir": "./build",
-    "module": "ES2015", 
+    "module": "CommonJS", 
     "target": "es5", 
     "lib": ["es2019", "dom"],
     "moduleResolution": "node",
