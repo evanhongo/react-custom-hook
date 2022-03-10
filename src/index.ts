@@ -1,5 +1,6 @@
 export {
   useDebounce,
+  useThrottle,
   useLocalStorage,
   usePrevious,
   useTimer,
